@@ -85,7 +85,7 @@ input {
   width: 25%;
 }
 
-.modal-head {
+.modal-head {   
   display: flex;
   flex-direction: column;
 }

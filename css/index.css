@@ -53,7 +53,8 @@ textarea{
   margin-top: 10px;
 }
 .create-btn {
-    width: 100%;
+    align-self: center;
+    width: 20%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 14px;
