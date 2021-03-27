@@ -11,26 +11,28 @@
 </head>
 
 <body>
-   <button id="Btn">Sign In</button>
-   
+    <button id="Btn">Sign In</button>
+
     <div id="sModal" class="modal">
         <div class="modal-cont">
             <span class="cross">&times;</span>
-            
+
             <form>
                 <h2>Welcome Back</h2><hr />
-              
+
                 <span>Username</span><br />
-                <input type="text" id="username" placeholder="Enter Username" class="input"/><br />
+                <input type="text" id="username" placeholder="Enter Username" class="input" /><br />
 
                 <span>Password</span><br />
                 <input type="password" id="pwd" placeholder="Enter Password" class="input" /><br />
-                
+
                 <button type="submit" id="HSign">Sign Up</button>
+
+                <span>Not a member?<a href=""> Sign Up</a></span>
             </form>
         </div>
     </div>
-    
+
 
 
     <button id="myBtn">Sign Up</button>
@@ -38,23 +40,47 @@
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            
+
             <form>
                 <h2>Get Started</h2><hr />
                 <span>Full Name</span><br />
-                <input type="text" id="name" placeholder="Enter Full Name" class="input"/><br />
+                <input type="text" id="name" placeholder="Enter Full Name" class="input" /><br />
                 <span>Username</span><br />
-                <input type="text" id="username" placeholder="Enter Username" class="input"/><br />
+                <input type="text" id="username" placeholder="Enter Username" class="input" /><br />
                 <span>Password</span><br />
-                <input type="password" id="pwd" placeholder="Enter Password" class="input"/><br />
+                <input type="password" id="pwd" placeholder="Enter Password" class="input" /><br />
                 <span>Confirm Password</span><br />
-                <input type="password" id="cpwd" placeholder="Confirm Password" class="input"/><br />
+                <input type="password" id="cpwd" placeholder="Confirm Password" class="input" /><br />
                 <button type="submit" id="HSign">Sign Up</button>
             </form>
         </div>
     </div>
+
+
+    <button id="createPost">Create Post</button>
+    <div id="createPost" class="modal">
+        <div class="modal-content">
+            <span class="closed">&times;</span>
+
+            <form>
+                <h2>Pen Your Post</h2><hr />
+                <span>Title</span><br />
+                <input type="text" id="name"  class="input" /><br />
+                <span>Username</span><br />
+                <input type="text" id="username" placeholder="Enter Username" class="input" /><br />
+                <span>Password</span><br />
+                <input type="password" id="pwd" placeholder="Enter Password" class="input" /><br />
+                <span>Confirm Password</span><br />
+                <input type="password" id="cpwd" placeholder="Confirm Password" class="input" /><br />
+                <button type="submit" id="HSign">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+
+
     <script src="jscribler.js"></script>
-  
+
 
 
 </body>
