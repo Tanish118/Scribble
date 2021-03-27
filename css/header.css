@@ -12,7 +12,11 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
   flex-direction: column;
   justify-content: space-between;
 }
-
+.area {
+    background-color: #ebeae6;
+    border-radius: 4px;
+    border: none;
+}
 .blue-button {
     background-color: blue;
     padding-top: 8px;
