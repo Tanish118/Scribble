@@ -16,24 +16,27 @@
 
 </head>
 <body>
-  <div id="main-container-div">
-    <div class="header">
-      <div class="title-container">
-        <p class="title">ScriBBler</p>
-        <p class="sub-title">Explore, Imagine, Create</p>
-      </div>
-      <div class="login-buttons-container">
-        <button onclick="showSignInModal()" class="blue-button" type="button">Sign In</button>
-        <button onclick="showSignUpModal()" class="blue-button" type="button">Sign Up</button>
-      </div>
-    </div>
+    
+    <div id="main-container-div">
+        <!--Header Division-->
+        <div class="header">
+            <div class="title-container">
+                <p class="title">ScriBBler</p>
+                <p class="sub-title">Explore, Imagine, Create</p>
+            </div>
+            <div class="login-buttons-container">
+                <button onclick="showSignInModal()" class="blue-button" type="button">Sign In</button>
+                <button onclick="showSignUpModal()" class="blue-button" type="button">Sign Up</button>
+            </div>
+        </div>
 
-    <div class="postButtons">
-      <button onclick="navigateToBlogList()" class="yellow-button" type="button">All posts</button>
-      <button onclick="showCreatePost()" class="yellow-button" type="button">Create post</button>
-    </div>
+        <!-- Body Post Division-->
+        <div class="postButtons">
+            <button onclick="navigateToBlogList()" class="yellow-button" type="button">All posts</button>
+            <button onclick="showCreatePost()" class="yellow-button" type="button">Create post</button>
+        </div>
 
-  </div>
+    </div>
 
     <div>
       <div class="modal" id="signin-modal">
@@ -55,7 +58,6 @@
         <p class=bottom-banner>Not a member?<span onclick="hideSignInModal();showSignUpModal()" class=signup>Sign Up</span></p>
       </div>
       </div>
-
     </div>
 
     <div>
