@@ -13,15 +13,17 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
   justify-content: space-between;
 }
 
-.blue-button{
-  background-color: blue;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 5px;
-  padding-left:5px;
-  color:white;
-  font-family: 'Ubuntu Condensed';
-  font-size: 14px;
+.blue-button {
+    background-color: blue;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Ubuntu Condensed';
+    font-size: 14px;
 }
 
 .title{
@@ -80,7 +82,7 @@ input {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 40%;
+  width: 25%;
 }
 
 .modal-head {
@@ -94,11 +96,17 @@ input {
   cursor: pointer;
 }
 
-.modal-title{
-  align-self: center;
-  font-family: Abel;
+.modal-title {
+    color: #33322d;
+    align-self: center;
+    font-family: Bahnschrift Condensed;
 }
-
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
 .signin-btn {
     width: 100%;
     background-color: #4CAF50;
