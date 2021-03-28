@@ -1,20 +1,19 @@
-// JavaScript source code
-var configuration_model = document.getElementsByClassName("Confirmation_box_model")[0];
 
-var configuration_btn = document.querySelectorAll(".trash");
+var conf_model = document.getElementsByClassName("Confirmation_box_model")[0];
+var close_btn = document.querySelectorAll(".trash");
 
-var configuration_no = document.getElementById("no");
-
-
-
-var j;
-for (j = 0; j < configuration_btn.length; j++) {
-    let btn = configuration_btn[j];
-    btn.onclick = function () {
-        configuration_model.style.display = "flex";
-    }
+function closeconf(){
+    conf_model.style.display = "none";
 }
 
-configuration_no.onclick = function () {
-    configuration_model.style.display = "none";
+
+function navigateToPost() {
+    location.href = "post.html"
+}
+var i;
+for (i = 0; i < close_btn.length; i++) {
+    let btn = close_btn[i];
+    btn.onclick = function () {
+        conf_model.style.display = "flex";
+    }
 }
