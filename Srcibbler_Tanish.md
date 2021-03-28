@@ -1,3 +1,0 @@
-# Scribble
-Upgrad Project
-
